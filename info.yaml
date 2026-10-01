@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id: "476710511017652225" # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title: "DAny 4" # Project title
-  author: "Dany" # Your name
+  title: "Dany Torres Name Display" # Project title
+  author: "Dany Torres" # Your name
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "asdasdasd" # One line description of what your project does
+  description: "Logic-gate decoder that shows the letters of DANY TORRES on a 7-segment display" # One line description of what your project does
   language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,23 +15,23 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[0]: "CODE3 (MSB)"
+  ui[1]: "CODE2"
+  ui[2]: "CODE1"
+  ui[3]: "CODE0 (LSB)"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
+  uo[0]: "SEG_A"
+  uo[1]: "SEG_B"
+  uo[2]: "SEG_C"
+  uo[3]: "SEG_D"
+  uo[4]: "SEG_E"
+  uo[5]: "SEG_F"
+  uo[6]: "SEG_G"
   uo[7]: ""
 
   # Bidirectional pins
